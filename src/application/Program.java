@@ -56,6 +56,8 @@ public class Program {
 		
 //		sellerDao.deleteById(id);
 		
+		/*Teste 2019*/
+		
 		System.out.println("Delete completed");
 		sc.close();
 	}
