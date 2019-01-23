@@ -26,5 +26,8 @@ public class Program {
 		department = model.findById(8);		
 		department.setName("Orange");
 		model.update(department);
+		
+		System.out.println("=== Department : Delete");
+		model.deleteById(8);
 	}
 }
